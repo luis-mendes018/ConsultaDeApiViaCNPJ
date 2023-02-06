@@ -1,0 +1,243 @@
+﻿@model ApiEmpresa.Models.InformacoesEmpresa
+
+@{
+    ViewBag.Title = "Dados da empresa";
+}
+
+<h2>Detalhes</h2>
+
+<div>
+    <h4>Informações da Empresa</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Status:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.status)
+        </dd>
+
+        <dt>
+            Última atualização:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ultima_atualizacao)
+        </dd>
+
+        <dt>
+            CNPJ:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cnpj)
+        </dd>
+
+        <dt>
+            Tipo:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tipo)
+        </dd>
+
+        <dt>
+            Porte:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.porte)
+        </dd>
+
+        <dt>
+            Nome Empresarial:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nome)
+        </dd>
+
+        <dt>
+            Nome Fantasia:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.fantasia)
+        </dd>
+
+        <dt>
+            Abertura:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.abertura)
+        </dd>
+
+        <dt>
+            Natureza Jurídica:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.natureza_juridica)
+        </dd>
+
+        <dt>
+            Logradouro:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.logradouro)
+        </dd>
+
+        <dt>
+            Número:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numero)
+        </dd>
+
+        <dt>
+            Complemento:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.complemento)
+        </dd>
+
+        <dt>
+            CEP:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.cep)
+        </dd>
+
+        <dt>
+            Bairro:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.bairro)
+        </dd>
+
+        <dt>
+            Município:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.municipio)
+        </dd>
+
+        <dt>
+            UF:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.uf)
+        </dd>
+
+        <dt>
+            Email:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.email)
+        </dd>
+
+        <dt>
+            Telefone:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.telefone)
+        </dd>
+
+        <dt>
+            efr:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.efr)
+        </dd>
+
+        <dt>
+            Situação:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.situacao)
+        </dd>
+
+        <dt>
+            Ativa desde:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data_situacao)
+        </dd>
+
+        <dt>
+            Motivo da situação:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.motivo_situacao)
+        </dd>
+
+        <dt>
+            Situação especial:
+            
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.situacao_especial)
+        </dd>
+
+        <dt>
+            Data da situ. especial:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.data_situacao_especial)
+        </dd>
+
+        <dt>
+            Capital social:
+           
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.capital_social)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    
+    @Html.ActionLink("Voltar", "ConsultarEmpresa")
+</p>
